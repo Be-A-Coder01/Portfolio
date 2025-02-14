@@ -1,12 +1,14 @@
-// import "./App.css";
+import "./App.css";
 import Navbar from "./PAGES/Navbar";
 import Personalcard from "./PAGES/Personalcard";
 import Landing from "./PAGES/Landing";
+import Projects from "./PAGES/Projects";
+import Skills from "./PAGES/Skills";
 
 function App() {
   return (
     <>
-      <div className="bg-[#151312] pt-9">
+      <div className="bg-[#151312]  pt-9 ">
         <Navbar></Navbar>
         <div className="flex justify-center mt-14 gap-28">
           <div>
@@ -14,6 +16,8 @@ function App() {
           </div>
           <div>
             <Landing></Landing>
+            <Projects></Projects>
+            <Skills></Skills>
           </div>
         </div>
       </div>

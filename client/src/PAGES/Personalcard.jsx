@@ -3,7 +3,7 @@ import pimg2 from "../assets/pimg2.png";
 
 const Personalcard = () => {
   return (
-    <div className="border-2 h-[600px] w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
+    <div className="border-2 sticky top-20 h-[600px] w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
       <div className="">
         <img src={pimg2} className="h-[284px] w-[240px] rounded-xl mx-auto" />
       </div>
