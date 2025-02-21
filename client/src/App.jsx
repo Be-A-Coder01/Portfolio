@@ -4,6 +4,7 @@ import Personalcard from "./PAGES/Personalcard";
 import Landing from "./PAGES/Landing";
 import Projects from "./PAGES/Projects";
 import Skills from "./PAGES/Skills";
+import Contact from "./PAGES/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Landing></Landing>
             <Projects></Projects>
             <Skills></Skills>
+            <Contact></Contact>
           </div>
         </div>
       </div>
