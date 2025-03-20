@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
         <div className=" w-[45vw]  ">
           <div className="flex flex-wrap gap-y-5">
-            <div className="  w-[12vw] flex place-items-center gap-4   mr-10 my-5">
+            <div className="  w-[12vw] flex place-items-center gap-4 hover:bg-[#1C1A19] p-3 rounded-lg  mr-10 my-5">
               <img src={tool1} className="h-14 rounded-2xl " />
               <div>
                 <p className="text-white text-[16px] font-medium">Reactjs</p>
@@ -36,7 +36,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool2} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">
@@ -47,7 +47,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool3} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Nodejs</p>
@@ -56,7 +56,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool4} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Expressjs</p>
@@ -65,7 +65,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className=" flex place-items-center w-[12vw] gap-4 mr-10 my-5">
+            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool5} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Redux</p>
@@ -74,7 +74,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className=" flex place-items-center w-[12vw] gap-4  mr-10 my-5">
+            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool6} className=" h-14 " />
               <div>
                 <p className="text-white text-[16px] font-medium">Java</p>
@@ -83,7 +83,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool7} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Postman</p>
@@ -92,7 +92,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  mr-10 my-5">
               <img src={tool8} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Javascript</p>
@@ -101,7 +101,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool9} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">JWT</p>
@@ -110,7 +110,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool10} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">NPM</p>
@@ -119,7 +119,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool11} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">MongoDB</p>
@@ -128,7 +128,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool12} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Python</p>
@@ -137,7 +137,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool13} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Mongoose</p>
@@ -146,7 +146,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool14} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Stripe</p>
@@ -155,7 +155,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw]  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
               <img src={tool15} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Linux</p>

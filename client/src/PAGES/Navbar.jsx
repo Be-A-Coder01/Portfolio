@@ -17,6 +17,7 @@ const Navbar = () => {
       <a href="#skills">
         <i class="fa-solid fa-wrench text-lg"></i>
       </a>
+
       {/* <i class="fa-solid fa-graduation-cap text-lg"></i> */}
       <a href="#achievments">
         <i class="fa-solid fa-certificate text-lg"></i>

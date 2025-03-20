@@ -11,9 +11,9 @@ const Achievments = () => {
       </p>
       <div
         id="achievments-scrollbar"
-        className=" h-[80vh]  flex flex-col gap-20 overflow-y-auto "
+        className=" h-[80vh]  flex flex-col gap-12 overflow-y-auto "
       >
-        <div className=" flex space-x-5">
+        <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -27,7 +27,7 @@ const Achievments = () => {
             </p>
           </div>
         </div>
-        <div className=" flex space-x-5">
+        <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -41,7 +41,7 @@ const Achievments = () => {
             </p>
           </div>
         </div>
-        <div className=" flex space-x-5">
+        <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -55,7 +55,7 @@ const Achievments = () => {
             </p>
           </div>
         </div>
-        <div className=" flex space-x-5">
+        {/* <div className=" flex space-x-5">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -68,8 +68,8 @@ const Achievments = () => {
               @ St. Joseph Univerity
             </p>
           </div>
-        </div>
-        <div className=" flex space-x-5">
+        </div> */}
+        {/* <div className=" flex space-x-5">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -82,8 +82,8 @@ const Achievments = () => {
               @ St. Joseph Univerity
             </p>
           </div>
-        </div>
-        <div className=" flex space-x-5">
+        </div> */}
+        {/* <div className=" flex space-x-5">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -96,8 +96,8 @@ const Achievments = () => {
               @ St. Joseph Univerity
             </p>
           </div>
-        </div>
-        <div className=" flex space-x-5">
+        </div> */}
+        {/* <div className=" flex space-x-5">
           <img src={ac1} className="h-32 w-52 rounded-md" />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
@@ -110,7 +110,7 @@ const Achievments = () => {
               @ St. Joseph Univerity
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
