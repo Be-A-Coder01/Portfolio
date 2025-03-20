@@ -2,7 +2,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <div className=" flex flex-col gap-10">
+    <section id="home" className=" flex flex-col gap-10">
       <div>
         <p className=" text-[110px] font-bold flex flex-col  ">
           <p className="text-white ">SOFTWARE</p>
@@ -42,7 +42,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="my-20">
+      <section id="contact" className="my-20">
         <div className=" flex flex-col text-[90px] font-bold">
           <span className="text-white">LETS'S WORK</span>
           <span className="text-[#353334] leading-9">TOGETHER</span>
@@ -54,7 +54,7 @@ const Contact = () => {
             Submit
           </button>
         </form>
-      </div>
+      </section>
     </>
   );
 };

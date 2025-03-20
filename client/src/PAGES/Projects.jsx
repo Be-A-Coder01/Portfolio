@@ -7,7 +7,7 @@ import project4_img from "../assets/projectimg4.png";
 const Projects = () => {
   return (
     <>
-      <div className=" my-24 flex flex-col gap-20">
+      <section id="projects" className=" my-24 flex flex-col gap-20">
         <div>
           <p className=" text-[110px] font-bold flex flex-col  ">
             <p className="text-white ">RECENT</p>
@@ -60,7 +60,7 @@ const Projects = () => {
             <div></div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

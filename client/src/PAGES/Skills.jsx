@@ -65,7 +65,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center w-[12vw] gap-4 mr-10 my-5">
+            <div className=" flex place-items-center w-[12vw] gap-4 mr-10 my-5">
               <img src={tool5} className="h-14 rounded-2xl" />
               <div>
                 <p className="text-white text-[16px] font-medium">Redux</p>
@@ -74,8 +74,8 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center w-[12vw] gap-4  mr-10 my-5">
-              <img src={tool6} className="h-14 rounded-2xl" />
+            <div className=" flex place-items-center w-[12vw] gap-4  mr-10 my-5">
+              <img src={tool6} className=" h-14 " />
               <div>
                 <p className="text-white text-[16px] font-medium">Java</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">

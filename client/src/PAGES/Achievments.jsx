@@ -4,14 +4,14 @@ import "../App.css";
 
 const Achievments = () => {
   return (
-    <section className=" border-red-500 mt-20">
+    <section id="achievments" className=" mt-20">
       <p className="text-[90px] font-bold mb-14 text-white">
         ACHIEV
         <span className="text-[#322f2e]">MENTS</span>
       </p>
       <div
         id="achievments-scrollbar"
-        className=" h-[80vh]  flex flex-col gap-20 overflow-y-auto"
+        className=" h-[80vh]  flex flex-col gap-20 overflow-y-auto "
       >
         <div className=" flex space-x-5">
           <img src={ac1} className="h-32 w-52 rounded-md" />
