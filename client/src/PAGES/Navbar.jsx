@@ -6,7 +6,9 @@ const Navbar = () => {
       <i class="fa-solid fa-house text-lg"></i>
       <i class="fa-solid fa-folder text-lg"></i>
       <i class="fa-solid fa-suitcase text-lg"></i>
-      <i class="fa-solid fa-wrench text-lg"></i>
+      <a href="#skills">
+        <i class="fa-solid fa-wrench text-lg"></i>
+      </a>
       <i class="fa-solid fa-graduation-cap text-lg"></i>
       <i class="fa-solid fa-certificate text-lg"></i>
     </div>

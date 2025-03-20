@@ -18,7 +18,7 @@ import tool15 from "../assets/linux.png";
 const Skills = () => {
   return (
     <>
-      <div className="flex flex-col gap-24 ">
+      <section id="skills" className="flex flex-col gap-24 ">
         <div>
           <p className=" text-[110px] font-bold flex flex-col  ">
             <p className="text-white ">PREMIUM </p>
@@ -166,7 +166,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

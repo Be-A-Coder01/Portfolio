@@ -5,6 +5,7 @@ import Landing from "./PAGES/Landing";
 import Projects from "./PAGES/Projects";
 import Skills from "./PAGES/Skills";
 import Contact from "./PAGES/Contact";
+import Achievments from "./PAGES/Achievments";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Landing></Landing>
             <Projects></Projects>
             <Skills></Skills>
+            <Achievments></Achievments>
             <Contact></Contact>
           </div>
         </div>
