@@ -3,7 +3,7 @@ import pimg2 from "../assets/pimg2.png";
 
 const Personalcard = () => {
   return (
-    <div className="border-2 sticky top-20 h-[600px] w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
+    <div className="   sticky  top-20 h-[600px] w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
       <div className="">
         <img src={pimg2} className="h-[284px] w-[240px] rounded-xl mx-auto" />
       </div>
@@ -24,6 +24,10 @@ const Personalcard = () => {
           <i class="fa-brands fa-github text-xl text-orange-600"></i>
           <i class="fa-brands fa-whatsapp text-xl text-orange-600"></i>
           <i class="fa-solid fa-envelope text-xl text-orange-600"></i>
+        </div>
+        <div className="w-[11vw] -mt-4  -ml-20 text-white  space-x-2 h-fit rounded-md bg-orange-600   py-2 justify-center flex ">
+          <i class="fa-solid fa-arrow-down mt-1 font-bold"></i>
+          <span className="">Resume | CV</span>
         </div>
       </div>
     </div>
