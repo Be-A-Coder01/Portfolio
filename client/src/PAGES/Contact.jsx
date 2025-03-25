@@ -3,15 +3,18 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="my-20">
-        <div className=" flex flex-col text-[90px] font-bold">
+      <section id="contact" className="md:my-0 lg:my-20">
+        <div className=" flex flex-col lg:text-[110px] md:text-[60px] font-bold">
           <span className="text-white">LETS'S WORK</span>
           <span className="text-[#353334] leading-9">TOGETHER</span>
         </div>
 
-        <form action="" className="flex flex-col gap-7 mt-20  w-full">
-          <div className=" flex justify-between">
-            <div className="flex flex-col  w-[48%]">
+        <form
+          action=""
+          className="flex flex-col gap-7 md:mt-14 lg:mt-20 md:w-[86%] lg:w-full"
+        >
+          <div className=" flex md:gap-10 lg:gap-0 lg:justify-between">
+            <div className="flex flex-col  md:w-[44%] lg:w-[48%]">
               <label htmlFor="name" className="mb-2 text-[#999999] text-[12px]">
                 Name
               </label>
@@ -22,7 +25,7 @@ const Contact = () => {
                 placeholder="Your Name"
               />
             </div>
-            <div className="flex flex-col w-[48%]">
+            <div className="flex flex-col md:w-[44%] lg:w-[48%]">
               <label
                 htmlFor="email"
                 className="mb-2 text-[#999999] text-[12px]"
@@ -37,7 +40,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col md:w-[96%] lg:w-[100%] ">
             <label htmlFor="about" className="mb-2 text-[#999999] text-[12px]">
               Message
             </label>
@@ -50,7 +53,7 @@ const Contact = () => {
               id="about"
             ></textarea>
           </div>
-          <button className=" py-2 bg-[#F46C38] rounded-md text-white">
+          <button className="md:w-[96%] lg:w-[100%] py-2 bg-[#F46C38] rounded-md text-white">
             Submit
           </button>
         </form>

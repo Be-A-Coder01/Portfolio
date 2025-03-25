@@ -5,16 +5,19 @@ import "../App.css";
 const Achievments = () => {
   return (
     <section id="achievments" className=" mt-20">
-      <p className="text-[90px] font-bold mb-14 text-white">
+      <p className="lg:text-[90px] md:text-[55px] font-bold mb-14 text-white">
         ACHIEV
         <span className="text-[#322f2e]">MENTS</span>
       </p>
       <div
         id="achievments-scrollbar"
-        className=" h-[80vh]  flex flex-col gap-12  "
+        className=" md:h-[60vh] lg:h-[80vh]  flex flex-col gap-12  "
       >
         <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
-          <img src={ac1} className="h-32 w-52 rounded-md" />
+          <img
+            src={ac1}
+            className="md:h-28 md:w-48 lg:h-32 lg:w-52 rounded-md"
+          />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
               1st price
@@ -28,7 +31,10 @@ const Achievments = () => {
           </div>
         </div>
         <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
-          <img src={ac1} className="h-32 w-52 rounded-md" />
+          <img
+            src={ac1}
+            className="md:h-28 md:w-48 lg:h-32 lg:w-52 rounded-md"
+          />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
               1st price
@@ -42,7 +48,10 @@ const Achievments = () => {
           </div>
         </div>
         <div className=" flex space-x-5 hover:bg-[#1C1A19] p-4 rounded-2xl">
-          <img src={ac1} className="h-32 w-52 rounded-md" />
+          <img
+            src={ac1}
+            className="md:h-28 md:w-48 lg:h-32 lg:w-52 rounded-md"
+          />
           <div className="flex flex-col ">
             <p className="text-white text-[30px] font-bold  inline-block">
               1st price

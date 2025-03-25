@@ -20,25 +20,25 @@ const Skills = () => {
     <>
       <section id="skills" className="flex flex-col gap-24 ">
         <div>
-          <p className=" text-[110px] font-bold flex flex-col  ">
+          <p className=" lg:text-[110px] md:text-[70px] font-bold flex flex-col  ">
             <p className="text-white ">PREMIUM </p>
             <p className="text-[#322f2e] leading-9">SKILLS</p>
           </p>
         </div>
-        <div className=" w-[45vw]  ">
-          <div className="flex flex-wrap gap-y-5">
-            <div className="  w-[12vw] flex place-items-center gap-4 hover:bg-[#1C1A19] p-3 rounded-lg  mr-10 my-5">
+        <div className=" md:w-[55vw] lg:w-[45vw]  ">
+          <div className="flex flex-wrap md:justify-items-center md:gap-y-10 md:gap-x-2 lg:gap-y-5 ">
+            <div className="  w-[12vw] flex place-items-center gap-4 hover:bg-[#1C1A19] p-3 rounded-lg   lg:mr-10 lg:my-5">
               <img src={tool1} className="h-14 rounded-2xl " />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Reactjs</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Js Library
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg lg:mr-10 lg:my-5">
               <img src={tool2} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">
                   TailwindCss
                 </p>
@@ -47,117 +47,117 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex  place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg lg:mr-10 lg:my-5">
               <img src={tool3} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Nodejs</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Js Runtime
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool4} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Expressjs</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Nodejs Framework
                 </p>
               </div>
             </div>
-            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg lg:mr-10 lg:my-5">
               <img src={tool5} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Redux</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   State Managment
                 </p>
               </div>
             </div>
-            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className=" flex place-items-center w-[12vw] gap-4 hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool6} className=" h-14 " />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Java</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Programming Language
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg lg:mr-10 lg:my-5">
               <img src={tool7} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Postman</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   API Testing
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg   lg:mr-10 lg:my-5">
               <img src={tool8} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Javascript</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Scripting Language
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool9} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">JWT</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Authentication & Authorization Tool
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool10} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">NPM</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Package Manager
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool11} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">MongoDB</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Database
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool12} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Python</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Scripting Language
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool13} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Mongoose</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   JavaScript library
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool14} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Stripe</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Payment Gateway
                 </p>
               </div>
             </div>
-            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg mr-10 my-5">
+            <div className="flex place-items-center gap-4 w-[12vw] hover:bg-[#1C1A19] p-3 rounded-lg  lg:mr-10 lg:my-5">
               <img src={tool15} className="h-14 rounded-2xl" />
-              <div>
+              <div className="md:hidden lg:block">
                 <p className="text-white text-[16px] font-medium">Linux</p>
                 <p className="text-[10px] font-normal text-[#998F8F]">
                   Operating System

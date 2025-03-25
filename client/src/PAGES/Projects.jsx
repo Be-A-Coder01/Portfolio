@@ -7,22 +7,27 @@ import project4_img from "../assets/projectimg4.png";
 const Projects = () => {
   return (
     <>
-      <section id="projects" className=" my-24 flex flex-col gap-20">
+      <section
+        id="projects"
+        className="  md:w-[52vw] lg:w-[40vw]  my-24 flex flex-col gap-20"
+      >
         <div>
-          <p className=" text-[110px] font-bold flex flex-col  ">
+          <p className=" lg:text-[110px] md:text-[70px]  font-bold flex flex-col  ">
             <p className="text-white ">RECENT</p>
             <p className="text-[#322f2e] leading-9">PROJECTS</p>
           </p>
         </div>
-        <div className="flex flex-col gap-10">
+        <div className="flex  flex-col gap-10">
           <div className="flex gap-6  p-4 rounded-xl place-items-center hover:bg-[#1C1A19]">
             <img
               src={project1_img}
-              className="h-32 w-52  shadow-2xl shadow-purple-800 rounded-lg"
+              className="md:h-28 md:w-48 lg:h-32 lg:w-52  shadow-2xl shadow-purple-800 rounded-lg"
             />
             <div className="">
-              <p className="text-[26px] font-bold text-white">Ciniverse</p>
-              <p className="text-[16px] font-normal text-[#998F8F]">
+              <p className="md:text-[23px] lg:text-[26px] font-bold text-white">
+                Ciniverse
+              </p>
+              <p className="md:text-[23px] lg:text-[26px]  font-normal text-[#998F8F]">
                 Trailer App
               </p>
             </div>
@@ -30,10 +35,12 @@ const Projects = () => {
           <div className="flex gap-6  p-4 rounded-xl  place-items-center hover:bg-[#1C1A19]">
             <img
               src={project2_img}
-              className="h-32 w-52  shadow-2xl shadow-purple-800 rounded-lg"
+              className="md:h-28 md:w-48 lg:h-32 lg:w-52  shadow-2xl shadow-purple-800 rounded-lg"
             />
             <div className="">
-              <p className="text-[26px] font-bold text-white">ORI</p>
+              <p className="md:text-[23px] lg:text-[26px]  font-bold text-white">
+                ORI
+              </p>
               <p className="text-[16px] font-normal text-[#998F8F]">
                 E-commerce Website
               </p>
@@ -42,7 +49,7 @@ const Projects = () => {
           <div className="flex gap-6 p-4 rounded-xl  place-items-center hover:bg-[#1C1A19] ">
             <img
               src={project3_img}
-              className="h-32 w-52   shadow-2xl shadow-purple-800 rounded-lg"
+              className="md:h-28 md:w-48 lg:h-32 lg:w-52   shadow-2xl shadow-purple-800 rounded-lg"
             />
             <div className="">
               <p className="text-[26px] font-bold text-white">Nest</p>
