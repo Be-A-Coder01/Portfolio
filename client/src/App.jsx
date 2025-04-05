@@ -10,7 +10,7 @@ import Achievments from "./PAGES/Achievments";
 function App() {
   return (
     <>
-      <div className="bg-[#151312] md:w-screen   pt-9 ">
+      <div className="bg-[#151312] md:w-screen  lg:w-full  pt-9 ">
         <Navbar></Navbar>
         {/* <div className="flex justify-center  relative  mt-14 gap-4"> */}
         {/* <div className=" flex   items-end h-[70vh]"> */}
@@ -19,7 +19,7 @@ function App() {
             <span className="">Resume | CV</span>
           </div> */}
         {/* </div> */}
-        <div className=" flex lg:justify-center md:mx-7 lg:mx-0 w-full md:gap-10 lg:gap-28 md:w-[96vw] mt-14">
+        <div className=" flex lg:justify-center md:mx-7 lg:mx-0 w-full md:gap-10 lg:gap-28 md:w-[96vw] lg:w-full   mt-14">
           <div>
             <Personalcard></Personalcard>
           </div>

@@ -17,8 +17,8 @@ const Projects = () => {
             <p className="text-[#322f2e] leading-9">PROJECTS</p>
           </p>
         </div>
-        <div className="flex  flex-col gap-10">
-          <div className="flex gap-6  p-4 rounded-xl place-items-center hover:bg-[#1C1A19]">
+        <div className="flex flex-col gap-10">
+          <div className="flex gap-6  p-4 rounded-xl place-items-center hover:bg-[#1C1A19] cursor-pointer">
             <img
               src={project1_img}
               className="md:h-28 md:w-48 lg:h-32 lg:w-52  shadow-2xl shadow-purple-800 rounded-lg"
@@ -32,7 +32,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-6  p-4 rounded-xl  place-items-center hover:bg-[#1C1A19]">
+          <div className="flex gap-6  p-4 rounded-xl  place-items-center hover:bg-[#1C1A19] cursor-pointer">
             <img
               src={project2_img}
               className="md:h-28 md:w-48 lg:h-32 lg:w-52  shadow-2xl shadow-purple-800 rounded-lg"
@@ -46,7 +46,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-6 p-4 rounded-xl  place-items-center hover:bg-[#1C1A19] ">
+          <div className="flex gap-6 p-4 rounded-xl  place-items-center hover:bg-[#1C1A19] cursor-pointer">
             <img
               src={project3_img}
               className="md:h-28 md:w-48 lg:h-32 lg:w-52   shadow-2xl shadow-purple-800 rounded-lg"
