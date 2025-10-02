@@ -4,10 +4,10 @@ const Landing = () => {
   return (
     <section
       id="home"
-      className=" md:w-[52vw] lg:w-[40vw] border-yellow-500 flex flex-col md:gap-7 lg:gap-10"
+      className="border-2  w-screen md:w-[52vw] lg:w-[40vw] border-yellow-500 flex flex-col md:gap-7 lg:gap-10"
     >
       <div>
-        <p className="   border-green-800 md:text-[70px] lg:text-[110px] font-bold flex flex-col  ">
+        <p className="border-green-800 text-[60px] md:text-[70px] lg:text-[110px] font-bold flex flex-col  ">
           <p className="text-white ">SOFTWARE</p>
           <p className="text-[#322f2e] leading-9">ENGINEER</p>
         </p>

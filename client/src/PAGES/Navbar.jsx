@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="rounded-2xl flex md:gap-9 w-fit  lg:gap-9 bg-[#1C1A19] text-white px-10 justify-center h-10 items-center mx-auto ">
+    <div className="rounded-2xl flex gap-6 md:gap-9 w-fit  lg:gap-9 bg-[#1C1A19] text-white px-10 justify-center h-10 items-center mx-auto ">
       <a href="#home">
         <i class="fa-solid fa-house text-lg hover:-mt-2"></i>
       </a>
