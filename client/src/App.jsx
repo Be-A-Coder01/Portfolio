@@ -27,7 +27,7 @@ function App() {
             <Landing></Landing>
             <Projects></Projects>
             <Skills></Skills>
-            {/* <Achievments></Achievments> */}
+            <Achievments></Achievments>
             <Contact></Contact>
           </div>
         </div>

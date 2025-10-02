@@ -32,7 +32,7 @@ const Projects = () => {
               <p className="md:text-[23px] lg:text-[26px] font-bold text-white">
                 Ciniverse
               </p>
-              <p className="md:text-[23px] lg:text-[26px]  font-normal text-[#998F8F]">
+              <p className="md:text-[23px] lg:text-[16px]  font-normal text-[#998F8F]">
                 Trailer App
               </p>
             </div>

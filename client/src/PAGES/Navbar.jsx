@@ -18,10 +18,10 @@ const Navbar = () => {
         <i class="fa-solid fa-wrench text-lg hover:-mt-2"></i>
       </a>
 
-      {/* <i class="fa-solid fa-graduation-cap text-lg hover:-mt-2"></i>
+      <i class="fa-solid fa-graduation-cap text-lg hover:-mt-2"></i>
       <a href="#achievments">
         <i class="fa-solid fa-certificate text-lg  hover:-mt-2 "></i>
-      </a> */}
+      </a>
     </div>
   );
 };
