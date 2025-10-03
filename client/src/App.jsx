@@ -10,7 +10,7 @@ import Achievments from "./PAGES/Achievments";
 function App() {
   return (
     <>
-      <div className="bg-[#151312] w-screen md:w-screen  lg:w-full border-2 border-green-700  pt-9 ">
+      <div className="bg-[#151312] w-screen md:w-screen  lg:w-full   pt-9 ">
         <Navbar></Navbar>
         {/* <div className="flex justify-center  relative  mt-14 gap-4"> */}
         {/* <div className=" flex   items-end h-[70vh]"> */}
