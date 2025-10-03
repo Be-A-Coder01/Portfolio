@@ -11,7 +11,7 @@ const Personalcard = () => {
   };
 
   return (
-    <div className="border-2 m-0 border-blue-600 flex flex-col h-[750px] sticky md:top-20 lg:top-10 md:h-[500px] lg:h-[620px] w-[95vw] md:w-[290px] lg:w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
+    <div className="m-0 flex flex-col h-[750px] sticky md:top-20 lg:top-10 md:h-[500px] lg:h-[620px] w-[95vw] md:w-[290px] lg:w-[344px] rounded-3xl bg-[#FFFFFF] py-8">
       <div>
         <img
           src={pimg2}
