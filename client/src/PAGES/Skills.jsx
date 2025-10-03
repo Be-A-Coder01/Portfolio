@@ -25,9 +25,9 @@ const Skills = () => {
             <p className="text-[#322f2e] leading-9 mx-auto md:mx-0">SKILLS</p>
           </p>
         </div>
-        <div className=" md:w-[55vw] lg:w-[45vw]  ">
+        <div className=" md:w-[55vw] lg:w-[55vw]  ">
           <div className="flex flex-wrap px-2 md:justify-items-center gap-x-16 gap-y-5 md:gap-y-10 md:gap-x-2 lg:gap-y-5 ">
-            <div className="  w-[12vw] flex flex-col md:flex-row place-items-center gap-2 md:gap-4 hover:bg-[#1C1A19] p-3 rounded-lg   lg:mr-10 lg:my-5">
+            <div className=" w-[12vw] flex flex-col md:flex-row place-items-center gap-2 md:gap-4 hover:bg-[#1C1A19] p-3 rounded-lg   lg:mr-10 lg:my-5">
               <img src={tool1} className="h-14 md:h-14 rounded-2xl " />
               <div className="md:hidden lg:block">
                 <p className="text-white text-[12px] md:text-[16px] font-medium">

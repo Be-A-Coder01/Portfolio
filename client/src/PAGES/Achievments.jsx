@@ -13,7 +13,7 @@ const Achievments = () => {
       </p>
       <div
         id="achievments-scrollbar"
-        className="  md:h-[60vh] lg:h-fit  flex flex-col md:flex-nowrap md:flex-row gap-y-10 gap-x-2  flex-wrap   "
+        className="  md:h-[60vh] lg:h-fit  flex flex-col  md:flex-row gap-y-10 gap-x-2  flex-wrap   "
       >
         <div className="mx-auto md:mx-0 flex flex-row w-[95vw] md:w-[27vw]  space-x-5 bg-[#1C1A19] h-fit p-3 rounded-2xl">
           <p className="text-white">
