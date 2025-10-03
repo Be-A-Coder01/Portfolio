@@ -3,7 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section id="contact" className=" my-20 md:my-0  lg:my-20">
+      <section
+        id="contact"
+        className=" py-20 border-2 border-red-800 md:my-0  lg:my-20"
+      >
         <div className=" flex flex-col text-[60px] lg:text-[110px] md:text-[60px] font-bold">
           <span className="text-white mx-auto md:mx-0">LETS'S WORK</span>
           <span className="text-[#353334] leading-9 mx-auto md:mx-0">
